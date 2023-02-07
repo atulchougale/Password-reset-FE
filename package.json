@@ -2,7 +2,7 @@
   "name": "pass-res-fe",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:7007",
+  "proxy": "https://password-reset-gi44.onrender.com",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
