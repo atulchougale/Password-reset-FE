@@ -15,7 +15,7 @@ const ForgotPassword = () => {
     const history = useNavigate();
 
     const userValid = async () => {
-        const res = await fetch(`/forgotpassword/${id}/${token}`, {
+        const res = await fetch(`https://password-reset-gi44.onrender.com/forgotpassword/${id}/${token}`, {
             method: "GET",
             headers: {
                 "content-Type": "application/json"
@@ -39,7 +39,7 @@ const ForgotPassword = () => {
     const sendpassword = async (e) => {
         e.preventDefault();
 
-        const res = await fetch(`/forgotpassword/${id}/${token}`, {
+        const res = await fetch(`https://password-reset-gi44.onrender.com/forgotpassword/${id}/${token}`, {
             method: "POST",
             headers: {
                 "content-Type": "application/json"

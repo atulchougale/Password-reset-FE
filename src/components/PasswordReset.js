@@ -15,7 +15,7 @@ const PasswordReset = () => {
     const sendLink =async(e) =>{
         e.preventDefault();
 
-        const res = await fetch("/sendpasswordlink",{
+        const res = await fetch("https://password-reset-gi44.onrender.com/sendpasswordlink",{
             method:"POST",
             headers:{ 
                 "content-Type":"application/json"

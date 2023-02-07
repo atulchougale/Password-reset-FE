@@ -16,7 +16,7 @@ const Dashboard = () => {
         let token = localStorage.getItem("userdatatoken");
         // console.log(token)
 
-        const res = await fetch("/validuser", {
+        const res = await fetch("https://password-reset-gi44.onrender.com/validuser", {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",

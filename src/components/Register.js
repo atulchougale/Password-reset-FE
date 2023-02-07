@@ -71,7 +71,7 @@ const Register = () => {
         } else {
             // console.log("User Register Successfully Done ")
 
-            const data = await fetch("/register", {
+            const data = await fetch("https://password-reset-gi44.onrender.com/register", {
                 method: "POST",
                 headers: {
                     "content-Type": "application/json"

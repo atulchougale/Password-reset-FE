@@ -26,7 +26,7 @@ const Header = () => {
 
     let token = localStorage.getItem("userdatatoken");
     // console.log(token);
-    const res = await fetch("/logout",{
+    const res = await fetch("https://password-reset-gi44.onrender.com/logout",{
         method:"GET",
         headers:{
             "content-Type":"application/json",

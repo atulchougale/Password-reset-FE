@@ -55,7 +55,7 @@ const Login = () => {
             // console.log("User Login Successfully Done ")
 
 
-            const data = await fetch("/login", {
+            const data = await fetch("https://password-reset-gi44.onrender.com/login", {
                 method: "POST",
                 headers: {
                     "content-Type": "application/json"
